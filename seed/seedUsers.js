@@ -1,4 +1,4 @@
-const pool = require('../db'); // PostgreSQL pool
+const pool = require('../db'); 
 const bcrypt = require('bcrypt');
 
 // Sample user data

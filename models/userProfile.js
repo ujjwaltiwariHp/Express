@@ -1,6 +1,6 @@
 const pool = require('../db');
 
-const UserProfileModel = {
+const UserProfile = {
   // Get average age of all users
   async getAverageAge() {
     const result = await pool.query(`
@@ -22,4 +22,4 @@ const UserProfileModel = {
   }
 };
 
-module.exports = UserProfileModel;
+module.exports = UserProfile;
